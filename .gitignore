@@ -1,0 +1,107 @@
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+[Bb]in/
+[Oo]bj/
+
+# Visual Studio Code
+.vscode/
+
+# Rider
+.idea/
+*.sln.iml
+
+# NuGet Packages
+*.nupkg
+*.snupkg
+**/packages/*
+!**/packages/build/
+!**/packages/build/**
+
+# Visual Studio 2019 and later
+.vs/
+.vscode/
+*.sln.ide
+
+# Rider specific files
+.idea/
+*.sln.iml
+
+# User-specific files
+*.user
+*.suo
+*.userprefs
+
+# Logs
+*.log
+
+# Build results
+[Bb]in/
+[Oo]bj/
+**/bin/
+**/obj/
+
+# Visual Studio Code settings
+.vscode/
+.history/
+
+# Resharper
+*.DotSettings.user
+
+# DotNet Core
+project.lock.json
+project.fragment.lock.json
+*.dbmdl
+*.dbproj.schemaview
+*.jfm
+*.pdb
+
+# Other
+*.cache
+*.vs/
+*.sln.docstates
+*.sln.ide
+
+# Temporary files
+*.tmp
+*.temp
+
+# Backup files
+*~ 
+*.bak
+*.swp
+
+# Other IDEs
+.idea/
+*.iml
+
+# Mac OS
+.DS_Store
+
+# Windows thumbnail cache
+Thumbs.db
+ehthumbs.db
+
+# Visual Studio Code extensions
+.vscode/extensions.json
+.vscode/settings.json
+.vscode/tasks.json
+.vscode/launch.json
+
+# Environment files
+.env
+*.env
+
+# Additional files
+*.pid
+*.seed
+*.pdb
+*.mdb
+*.scc
