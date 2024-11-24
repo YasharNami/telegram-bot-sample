@@ -8,7 +8,6 @@ namespace TelegramSampleBot.Handlers;
 
 public static class MainHandler
 {
-    [Obsolete("Obsolete")]
     public static Task Run(ITelegramBotClient bot, Update update, CancellationToken cancellationToken)
     {
         Task.Run(async () =>
@@ -24,6 +23,7 @@ public static class MainHandler
                                 switch (update.Message.Type)
                                 {
                                     case MessageType.Text:
+                                        Console.WriteLine($"{update.Message.From.Id} - {update.Message.Text}");
                                         var message = update.Message.Text;
                                         var userId = update.Message.From!.Id;
                                         if (message == "/start")
